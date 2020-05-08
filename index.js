@@ -36,7 +36,7 @@ function promptUser() {
       name: "license",
       message:
         "Please select which license you would like to use for your project",
-      choices: ["Apache 2.0", "GPL v3", "IPL 1.0", "MIT", "MPL 2.0"],
+      choices: ["Apache 2.0", "GPL 3.0", "IPL 1.0", "MIT", "MPL 2.0"],
     },
     {
       type: "input",
@@ -82,7 +82,7 @@ ${answers.tests}
 
 ## <a name="Questions"></a>Questions can be sent to:
 
-${answers.email}
+__*${answers.email}*__
 
 ## <a name="license"></a>License
 
@@ -97,7 +97,7 @@ Click to view GitHub profile
     `;
 
     for (let i = 0; i < answers.partners.length; i++) {
-      partnerSection += `\n[${answers.partners[i]}](https://github.com/${answers.partners[i]})`;
+      partnerSection += `\n[${answers.partners[i]}](https://github.com/${answers.partners[i]}) - `;
     }
     document += partnerSection;
   };
