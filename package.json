@@ -1,0 +1,28 @@
+{
+  "name": "homework-9",
+  "version": "1.0.0",
+  "description": "CLI ReadMe Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdjenks/Homework-9.git"
+  },
+  "keywords": [
+    "node",
+    "ReadMe"
+  ],
+  "author": "cdjenks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdjenks/Homework-9/issues"
+  },
+  "homepage": "https://github.com/cdjenks/Homework-9#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "util": "^0.12.3"
+  }
+}
